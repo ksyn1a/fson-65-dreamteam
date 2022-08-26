@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: var(--primary-text-color);
   background-color: var(--secondary-text-color);
@@ -54,6 +54,63 @@ address {
 }
 
 /* utils */
+.container {
+  width: 1360px;
+  margin: 0 auto;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+/* header */
+
+.header {
+  background-color: #2f303a;
+}
+
+.header .container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header-logo {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 35px;
+  line-height: 1.21;
+  color: var(--secondary-text-color);
+}
+
+.accent {
+  margin-right: 12px;
+  color: var(--accent-color);
+}
+
+.header-logo-img {
+  margin-right: 10px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav-list {
+  gap: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav-link {
+  display: block;
+  padding: 21px 0;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
 
 /* hero */
 .hero {

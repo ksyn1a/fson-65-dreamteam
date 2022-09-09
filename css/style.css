@@ -223,7 +223,7 @@ address {
 
 /* about */
 .about {
-  padding: 122px 0 19px 0;
+  padding: 40px 0 19px 0;
 }
 
 .about .container {
@@ -239,6 +239,20 @@ address {
 
 .about-item {
   width: calc((100% - 142px) / 3);
+}
+
+.about-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+  background-color: var(--accent-color);
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
 
 .about-subtitle {

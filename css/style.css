@@ -220,7 +220,6 @@ address {
 }
 
 /* Features */
-
 .features-section {
   display: flex;
   justify-content: center;
@@ -291,6 +290,76 @@ address {
   font-weight: 400;
   font-size: 18px;
   line-height: calc(28 / 18);
+}
+/* offer */
+.offer-container {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+}
+
+.offer-right-side {
+  padding: 84px 44px 84px 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--accent-color);
+}
+
+.offer-text {
+  margin-bottom: 5px;
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--secondary-text-color);
+}
+
+.offer-title {
+  margin-bottom: 26px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--secondary-text-color);
+}
+
+.offer-content {
+  margin-bottom: 17px;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
+
+.offer-button {
+  display: inline-block;
+  width: 167px;
+  height: 50px;
+  padding: 11px 27px 12px 42px;
+  line-height: 1.56px;
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+  border: 1px solid var(--secondary-text-color);
+  border-radius: 5px;
+  text-align: start;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.business {
+  padding: 50px 0 47px 0;
+}
+.business-caption {
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.business-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  margin-bottom: 34px;
+}
+.business-text {
+  line-height: 1.56;
   text-align: center;
   margin-bottom: 39px;
 }
@@ -303,4 +372,18 @@ address {
 
 .cases-item {
   flex-basis: calc((100% - 8px * 3) / 4);
+}
+
+.business-list {
+  /* СЕТКА */
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 7px;
+  column-gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.business-img {
+  width: calc((100% - 3 * 8px) / 4);
 }

@@ -247,7 +247,7 @@ address {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  
+
   background-color: var(--accent-color);
   width: 67px;
   height: 67px;
@@ -338,10 +338,12 @@ address {
 }
 
 .cases-text {
-  font-weight: 400;
+  text-align: center;
   font-size: 18px;
   line-height: calc(28 / 18);
+  margin-bottom: 39px;
 }
+
 /* offer */
 .offer-container {
   padding-left: 0;
@@ -351,12 +353,16 @@ address {
 
 .offer-right-side {
   padding: 84px 44px 84px 30px;
-  display: flex;
-  flex-direction: column;
+  background-color: var(--accent-color);
+  width: 50%;
+}
+
+.offer-img {
   background-color: var(--accent-color);
 }
 
 .offer-text {
+  font-weight: 400;
   margin-bottom: 5px;
   font-size: 20px;
   line-height: 1.65;

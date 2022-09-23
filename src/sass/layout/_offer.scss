@@ -15,28 +15,6 @@
     background-color: var(--accent-color);
   }
 
-  &-text {
-    font-weight: 400;
-    margin-bottom: 5px;
-    font-size: 20px;
-    line-height: 1.65;
-    color: var(--secondary-text-color);
-  }
-
-  &-title {
-    margin-bottom: 26px;
-    font-weight: 300;
-    font-size: 38px;
-    line-height: 1.26;
-    color: var(--secondary-text-color);
-  }
-
-  &-content {
-    margin-bottom: 17px;
-    line-height: 1.56;
-    color: var(--secondary-text-color);
-  }
-
   &-button {
     display: inline-block;
     width: 167px;

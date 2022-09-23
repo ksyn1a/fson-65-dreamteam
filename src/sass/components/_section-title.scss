@@ -1,0 +1,16 @@
+.section-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: calc(48 / 38);
+
+  &__light {
+    color: var(--secondary-text-color);
+    margin-bottom: 26px;
+  }
+
+  &__dark {
+    color: var(--primary-text-color);
+    margin-bottom: 34px;
+    text-align: center;
+  }
+}

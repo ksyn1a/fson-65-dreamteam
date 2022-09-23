@@ -1,0 +1,16 @@
+.section-toptitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: calc(33 / 20);
+
+  &__light {
+    color: var(--secondary-text-color);
+    margin-bottom: 5px;
+  }
+
+  &__dark {
+    color: var(--primary-text-color);
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}

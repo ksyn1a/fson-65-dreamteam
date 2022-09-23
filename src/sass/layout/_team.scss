@@ -1,0 +1,96 @@
+.team {
+  padding-top: 49px;
+
+  &-container {
+    padding-bottom: 59px;
+    text-align: center;
+  }
+  &-list {
+    display: flex;
+    list-style-type: none;
+    gap: 21px;
+    padding: 0;
+  }
+
+  &-up-text {
+    font-size: 20px;
+    line-height: calc(33 / 20);
+    text-align: center;
+    color: var(--primary-text-color);
+    margin-bottom: 16px;
+  }
+
+  &-title {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: calc(48 / 38);
+    text-align: center;
+    color: var(--primary-text-color);
+    margin-bottom: 34px;
+  }
+
+  &-text {
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    text-align: center;
+    color: var(--primary-text-color);
+    margin-bottom: 45px;
+  }
+
+  &-team {
+    font-size: 25px;
+    line-height: calc(32 / 25);
+    text-align: center;
+    color: var(--primary-text-color);
+  }
+
+  .position-team {
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    text-align: center;
+    color: var(--primary-text-color);
+  }
+
+  .card-name {
+    padding-top: 13px;
+  }
+
+  &-thumb {
+    transition: var(--transition-duration);
+  }
+
+  &-thumb:hover,
+  &-thumb:focus {
+    transform: scale(1.04);
+  }
+
+  /* social-icon */
+  &-social-list {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+  }
+
+  &-thumb {
+    position: relative;
+  }
+  &-social-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 120px 100px;
+  }
+
+  .socials-icon {
+    opacity: 0;
+    visibility: hidden;
+    transition: 250ms opacity, 250ms visibility;
+  }
+
+  &-thumb:hover .socials-icon,
+  &-thumb:focus .socials-icon {
+    transform: scale(1.04);
+    opacity: 1;
+    visibility: visible;
+  }
+}

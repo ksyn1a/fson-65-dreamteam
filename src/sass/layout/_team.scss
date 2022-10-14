@@ -68,4 +68,8 @@
     opacity: 1;
     visibility: visible;
   }
+
+  & .socials-icon {
+    fill: var(--secondary-text-color);
+  }
 }

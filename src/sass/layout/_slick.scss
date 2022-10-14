@@ -1,0 +1,23 @@
+.slick {
+  padding: 100px 0;
+  background-color: tomato;
+
+  &-item {
+    background-color: teal;
+    height: 300px;
+    border-radius: 6px;
+  }
+
+  &-title {
+    color: #ffffff;
+    padding: 20px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #ffffff;
+  }
+
+  .slick-dots li button:before {
+    color: teal;
+  }
+}
